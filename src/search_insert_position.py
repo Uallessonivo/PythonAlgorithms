@@ -1,4 +1,4 @@
-def insert_position(nums, target):
+def insert_position(nums: list[int], target: int) -> int:
     left = 0
     right = len(nums) - 1
 

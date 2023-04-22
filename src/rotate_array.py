@@ -1,4 +1,4 @@
-def rotate_array(nums, k):
+def rotate_array(nums: list[int], k: int) -> list[int]:
     n = len(nums)
     k = k % n
 

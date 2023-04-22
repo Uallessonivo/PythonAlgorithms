@@ -1,4 +1,4 @@
-def reverse_words_in_string(s):
+def reverse_words_in_string(s: str) -> str:
     words = s.split(' ')
 
     for i in range(len(words)):
@@ -9,7 +9,7 @@ def reverse_words_in_string(s):
     return reversed_s
 
 
-def reverse_words_in_string_v2(s):
+def reverse_words_in_string_v2(s: str) -> str:
     words = s.split(' ')
 
     reversed_words = map(lambda word: word[::-1], words)

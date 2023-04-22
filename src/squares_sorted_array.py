@@ -1,4 +1,4 @@
-def squares_sorted_array(nums):
+def squares_sorted_array(nums: list[int]) -> list[int]:
     squares = []
 
     for num in nums:
@@ -9,7 +9,7 @@ def squares_sorted_array(nums):
     return squares
 
 
-def squares_sorted_array2(nums):
+def squares_sorted_array2(nums: list[int]) -> list[int]:
     return sorted(map(lambda x: x * x, nums))
 
 

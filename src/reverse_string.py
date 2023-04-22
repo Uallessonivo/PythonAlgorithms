@@ -1,4 +1,4 @@
-def reverse_string(s):
+def reverse_string(s: list[str]) -> list[str]:
     s.reverse()
     return s
 

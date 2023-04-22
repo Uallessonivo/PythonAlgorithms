@@ -1,12 +1,12 @@
 # Fake func
-def bad_version(version):
+def bad_version(version: int):
     if version <= 5:
         return True
 
     return False
 
 
-def first_bad_version(version):
+def first_bad_version(version: int) -> int:
     left = 0
     right = version
 

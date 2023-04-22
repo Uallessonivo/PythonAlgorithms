@@ -1,4 +1,4 @@
-def move_zeroes(nums):
+def move_zeroes(nums: list[int]) -> list[int]:
     n = len(nums)
     zero_index = 0
 
